@@ -1,5 +1,4 @@
 const inputBox = document.getElementById("input-el")
-const tempInputBox = document.getElementById("input-el")
 const numberBtn = document.querySelectorAll('.grey-btn')
 const equalSign = document.querySelector('#equal-sign')
 const plusSign = document.querySelector('#plus-sign')
@@ -7,6 +6,14 @@ const minusSign = document.querySelector('#minus-sign')
 const multiplySign = document.querySelector('#multiply-sign')
 const divideSign = document.querySelector('#divide-sign')
 const clearEl = document.querySelector('#clear-el')
+
+equalSign.addEventListener('click', equals)
+plusSign.addEventListener('click', add)
+minusSign.addEventListener('click', subtract)
+multiplySign.addEventListener('click', multiply)
+divideSign.addEventListener('click', divide)
+clearEl.addEventListener('click', clearInput)
+
 let sign = ""
 
 let hasEqualed = false
