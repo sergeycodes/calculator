@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    border: none;
+    width: 186px;
+    height: 25px;
+    background-color: #1C1C1C;
+    color: #FFEDED;
+    text-align: right;
+    font-size: 2rem;
+}
+
+#calculator-el {
+    position: absolute;
+    background-color: #1C1C1C;
+    color: #FFEDED;
+    width: 192px;
+    padding: 10px;
+}
+
+#answer-box {
+    padding: 10px 0;
+    width: 153px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 100px;
+    font-size: 1.5em;
+}
+
+button {
+    color: #FFEDED;
+    margin-top: px;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 48px;
+    border: 1px solid #1C1C1C;
+}
+
+.lightgrey-btn {
+    background-color: #D4D4D2;
+    color: #1C1C1C;
+}
+
+.grey-btn {
+    background-color: #505050;
+}
+
+.period-btn {
+    background-color: #505050;
+}
+
+.orange-btn {
+    background-color: #FF9500;
+}
+
+#zero-btn { 
+    padding-right: 74px;
+}
+
+#period-btn {
+    padding-right: 23px;
+}
+
+#plus-minus {
+    padding-left: 14px;
+}
+
+#percent-btn {
+    padding-left: 17px;
+}
